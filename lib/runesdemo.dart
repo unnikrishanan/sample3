@@ -3,6 +3,6 @@ void main(){
   print(data.codeUnits);
   print(data.codeUnitAt(3));
   print(data.runes);
-  var letter='\u{0d19}';
+  var letter='\u{002A}';
   print(letter);
 }

@@ -1,7 +1,7 @@
 void main(){
-  String? name;
+  String? name='Admin';
   int age=10;
 
   assert(name=='Admin');
-  print('hello $name and your age is $age');
+  print('hello $name your age is $age');
 }

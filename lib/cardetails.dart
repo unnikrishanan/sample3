@@ -22,4 +22,10 @@ void main(){
   print("  ${cardetails.car_wheel} Wheeler");
   obj1.engine("Petrol");
   obj1.manufacturecompany();
-}
+  print("2.CAR NAME = ${obj2.car_name="Maruthi 800"}");
+  print("  COLOUR = ${obj2.car_colour="White"}");
+  print("  MODEL NO = ${obj2.model_no=90099}");
+  print("  ${cardetails.car_wheel} Wheeler");
+  obj1.engine("Diesel");
+  obj1.manufacturecompany();
+  }

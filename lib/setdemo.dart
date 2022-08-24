@@ -1,5 +1,5 @@
 void main(){
-  Set<int> set1={1,2,3,4,5,5,3,6,7};
+  Set<int> set1={1,2,3,4,5,50,6,3,6,7};
   var set2={6,7,8,9,10,6};
   Set<String> set3=Set();
   set3.add("apple");
@@ -9,7 +9,7 @@ void main(){
   print(set1);
   print(set2);
   print(set3);
-  print(set1.contains(6));
+  print(set1.contains(8));
   print(set3.length);
   print("union set=${set1.union(set2)}");
   print(("interaction=${set1.intersection(set2)}"));
@@ -18,7 +18,7 @@ void main(){
   print(newlist);
   print(newlist.toSet());
 
-  set1.forEach((element) {
+  newlist.forEach((element) {
     print(element);
   }
   );

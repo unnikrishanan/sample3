@@ -9,5 +9,5 @@ void main(){
   print ("enter your age");
   int age=int.parse(stdin.readLineSync()!);
   print("my age is $age");
-  Show('unni',52,7.25);
+  Show(name,age,7.25);
 }
